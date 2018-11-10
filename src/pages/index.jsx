@@ -314,12 +314,8 @@ I mostly code in JS and PHP with a HTML front layer. Using several frameworks su
           <Title>Contact Me:</Title>
 
 
-          <form
-            name="contact-form"
-            method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
+          <form name="contact" method="POST" netlify>
+
             <input style={{ width: '100%', padding: '12px 20px', boxSizing: 'border-box', }} placeholder="Name" type="text" />
             <br />
             <br />
@@ -331,7 +327,7 @@ I mostly code in JS and PHP with a HTML front layer. Using several frameworks su
             <br />
 
             <br />
-            <button style={{ backgroundColor: '#259BED', border: 'none', padding: '15px 32px', display: 'inline-block', }}> Send</button>
+            <button style={{ backgroundColor: '#259BED', border: 'none', padding: '15px 32px', display: 'inline-block', }} type="submit"> Send</button>
           </form>
         </Inner>
         <Footer>
