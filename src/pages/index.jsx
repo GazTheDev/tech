@@ -164,7 +164,7 @@ const Index = () => (
           </BigTitle>
           <Subtitle>I'm creating unique websites for customers up and down the United Kingdom.
 <br />
-            Check Out My <a href="/services">Ongoing Project page</a>
+            Check Out My <a href="/services">Ongoing Projects page</a>
 
 
           </Subtitle>
@@ -311,15 +311,28 @@ I mostly code in JS and PHP with a HTML front layer. Using several frameworks su
       </Divider>
       <Content speed={0.4} offset={4}>
         <Inner>
-          <Title>Get in touch</Title>
+          <Title>Contact Me:</Title>
 
 
-          <ContactText>
+          <form
+            name="contact-form"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input style={{ width: '100%', padding: '12px 20px', boxSizing: 'border-box', }} placeholder="Name" type="text" />
+            <br />
+            <br />
+            <input style={{ width: '100%', padding: '12px 20px', boxSizing: 'border-box', }} name="email" placeholder="name@name.com" type="email" />
+            <br />
+            <br />
 
-            Say <a href="mailto:daviesg77@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://www.facebook.com/gareth.davies.gazza">Facebook</a> &{' '}
-            <a href="https://www.instagram.com/">Instagram</a>
-          </ContactText>
+            <textarea style={{ width: '100%', padding: '12px 20px', boxSizing: 'border-box', }} placeholder="Your Message" name="message" />
+            <br />
+
+            <br />
+            <button style={{ backgroundColor: '#259BED', border: 'none', padding: '15px 32px', display: 'inline-block', }}> Send</button>
+          </form>
         </Inner>
         <Footer>
           &copy; Created with love through Gatsby.{' '}
@@ -342,7 +355,7 @@ I mostly code in JS and PHP with a HTML front layer. Using several frameworks su
         <SVG icon="hexa" width={8} stroke={colors['grey-darkest']} left="80%" top="70%" />
       </Divider>
     </Parallax>
-  </React.Fragment>
+  </React.Fragment >
 );
 
 export default Index;
