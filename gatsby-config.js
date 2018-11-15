@@ -6,13 +6,16 @@ module.exports = {
   /* General Information */
   pathPrefix: config.pathPrefix,
   siteMetadata: {
-    siteUrl: config.siteUrl + pathPrefix,
+   siteUrl: `https://garethdavies.tech`,
+
   },
   /* Plugins */
   plugins: [
 
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
+    `gatsby-plugin-sitemap`,
+
 
     {
       resolve: `gatsby-plugin-google-analytics`,

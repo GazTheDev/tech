@@ -157,13 +157,15 @@ const Index = () => (
         <SVG icon="hexa" width={16} stroke={colors['grey-darker']} left="10%" top="50%" />
         <SVG icon="hexa" width={8} stroke={colors['grey-darker']} left="80%" top="70%" />
       </Divider>
-      <Content speed={0.4} offset={0}>
+      <Content speed={1.10} offset={0}>
         <Hero>
           <BigTitle>
             Hello, <br /> I'm Gareth Davies
           </BigTitle>
           <Subtitle>I'm creating unique websites for customers up and down the United Kingdom.
+
 <br />
+
             Check Out My <a href="/services">Ongoing Projects page</a>
 
 
