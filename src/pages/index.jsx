@@ -173,8 +173,8 @@ const Index = () => (
         </Hero>
       </Content>
       <DividerMiddle
-        bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
-        speed={-0.2}
+        bg="linear-gradient(to right, Red 0%, DeepSkyBlue 100%)"
+        speed={-0.8}
         offset={1.1}
         factor={2}
       />
@@ -198,18 +198,23 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="The Non League Pod"
-              link="https://www.mosports.co.uk"
+              link="https://www.mo-sports.co.uk"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
               The non league podcast - I was behind the camera for a interview with former professional footballer Cliff Akurang.
 
             </ProjectCard>
             <ProjectCard
-              title="Discount Dog Supplies"
-              link="https://www.discountdogsuppliers.com"
+              title="Coggeshall United Football Club "
+              link="https://www.coggeshallunitedfc.co.uk"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              My most recent acitivty is my very own website selling dog toys and customised goods. Again, a very awesome project.
+              I was apporached to do Coggeshall Uniteds new website. It ended up in becoming a member of the board and doing match day media.
+              One of my best pieces of work was this:
+              <br />
+              <br />
+
+              <iframe src="https://www.youtube.com/embed/KCh-1Pq8iwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             </ProjectCard>
             <ProjectCard
