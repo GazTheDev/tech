@@ -160,9 +160,9 @@ const Index = () => (
       <Content speed={1.10} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm Gareth Davies
+            Hello, <br /> I'm Gareth Davies.
           </BigTitle>
-          <Subtitle>I'm creating unique websites for customers up and down the United Kingdom.
+          <Subtitle>I'm the proud owner of Gareth Davies Media. A media startup based in Essex.
 
 <br />
 

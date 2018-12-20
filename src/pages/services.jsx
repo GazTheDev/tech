@@ -162,9 +162,9 @@ const Index = () => (
             <Content speed={0.4} offset={0}>
                 <Hero>
                     <BigTitle>
-                        Hello, <br /> Welcome to The Ongoing Work Page
+                        Hello, <br /> Welcome to My Ongoing Projects Page
           </BigTitle>
-                    <Subtitle>Below are some of my recent entries into my list of current work. , <a href="/">Home</a>
+                    <Subtitle>Below are some of my current projects. I like to keep myself busy!. <a href="/">Home</a>
 
 
                     </Subtitle>
